@@ -28,7 +28,8 @@ gnome-browser-connector \
 chromium-browser \
 neofetch \
 gparted \
-htop
+htop \
+git
 ```
 4. Get Extensions (May need to use chromium) (may need to install manually; check 'gnome-shell --version')
 ```
