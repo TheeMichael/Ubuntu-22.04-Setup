@@ -22,6 +22,7 @@ reboot
 3. Get the packages
 ```
 sudo apt install \
+gnome-tweaks \
 gnome-shell-extensions \
 chrome-gnome-shell \
 chromium-browser \
