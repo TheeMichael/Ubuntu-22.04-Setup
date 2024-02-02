@@ -47,8 +47,17 @@ https://extensions.gnome.org/extension/1634/resource-monitor/
 V-Shell (Vertical Workspaces)
 https://extensions.gnome.org/extension/5177/vertical-workspaces/
 ```
-5. Load dconf settings
+5. Clone this repository (if you havent already and navigate to its directory in terminal)
+6. Load dconf settings
 ```
 cat ubuntu.preferences | dconf load /
 ``` 
 7. Copy dotfiles
+```
+mkdir ~/Scripts
+cp ./dotfiles/bash_profile ~/.bash_profile
+cp ./dotfiles/bashrc ~/.bashrc
+cp ./dotfiles/inputrc ~/.inputrc
+cp ./dotfiles/profile ~/.profile
+```
+8. Enable autoscrolling in firefox
