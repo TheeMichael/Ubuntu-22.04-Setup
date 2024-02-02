@@ -30,3 +30,25 @@ neofetch \
 gparted \
 htop
 ```
+4. Get Extensions (May need to use chromium) (may need to install manually; check 'gnome-shell --version')
+```
+Audio Output Switcher
+https://extensions.gnome.org/extension/751/audio-output-switcher/
+
+Dash to Panel
+https://extensions.gnome.org/extension/1160/dash-to-panel/
+
+Removable Drive Menu
+https://extensions.gnome.org/extension/7/removable-drive-menu/
+
+Resource Monitor
+https://extensions.gnome.org/extension/1634/resource-monitor/
+
+V-Shell (Vertical Workspaces)
+https://extensions.gnome.org/extension/5177/vertical-workspaces/
+```
+5. Load dconf settings
+```
+cat ubuntu.preferences | dconf load /
+``` 
+7. Copy dotfiles
