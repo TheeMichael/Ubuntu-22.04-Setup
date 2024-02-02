@@ -24,14 +24,15 @@ reboot
 sudo apt install \
 gnome-shell-extensions \
 chrome-gnome-shell \
-gnome-browser-connector \
 chromium-browser \
 neofetch \
 gparted \
 htop \
 git
 ```
-4. Get Extensions (May need to use chromium) (may need to install manually; check 'gnome-shell --version')
+4. Get Extensions Use the firefox browser extension if you can (May need to use chromium).
+5. If you can't install them through the browser download them manually check 'gnome-shell --version' to download right versions
+6. Here is a link to help with manual installation https://www.debugpoint.com/manual-installation-gnome-extension/
 ```
 Audio Output Switcher
 https://extensions.gnome.org/extension/751/audio-output-switcher/
@@ -61,4 +62,6 @@ cp ./dotfiles/bashrc ~/.bashrc
 cp ./dotfiles/inputrc ~/.inputrc
 cp ./dotfiles/profile ~/.profile
 ```
-8. Enable autoscrolling in firefox
+9. Logout & Login
+8. Enable autoscrolling in Firefox
+9. Set light them in Firefox
