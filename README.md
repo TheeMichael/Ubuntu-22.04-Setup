@@ -2,7 +2,7 @@
 Guide on setting up and configuring Ubuntu 22.04 and maybe some other versions the way I like it
 
 ## Initial Install
-1. Create bootable flashrive (use rufus on windows, use startup disk creator on Ubuntu)
+1. Create bootable flashdrive (use rufus on windows, use startup disk creator on Ubuntu)
 2. Install Ubuntu through a USB media installer
 3. Select minimal install when asked, 3rd party drivers check if you have Nvidia 
 4. Create an EFI partition with 512MB
