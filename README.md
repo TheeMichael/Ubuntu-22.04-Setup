@@ -65,4 +65,4 @@ cp ./dotfiles/profile ~/.profile
 ```
 9. Logout & Login
 8. Enable autoscrolling in Firefox
-9. Set light them in Firefox
+9. Set light theme in Firefox
